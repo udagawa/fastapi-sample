@@ -1,4 +1,4 @@
-FROM python:3.9-alpine3.12
+FROM python:3.12.11-alpine3.22
 RUN apk --update add \
     curl \
     gcc \
