@@ -5,7 +5,8 @@ on:
     paths:
       - 'app/**'
       - .github/workflows/deploy-pr.yml
-
+  workflow_dispatch:
+  
 env:
   REGISTRY: ghcr.io
 
